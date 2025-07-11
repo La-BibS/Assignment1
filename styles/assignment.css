@@ -60,3 +60,34 @@ nav {
     height: 698px;
     gap: 20px;
 }
+/* action styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 200px 155px 200px;
+}
+.action-button{
+  color: #ffffff;
+  background-color: #3213e2;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.action-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+.action-note{
+    color: #252432;
+}
+.action-image{
+    border-radius: 10px;
+}
+.action-container{
+    text-align: left;
+    justify-content: left;
+    gap: 15px;
+    padding: 0.5rem 1rem;
+}
