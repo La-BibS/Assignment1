@@ -4,6 +4,8 @@
   font-optical-sizing: auto;
   font-style: normal;
   margin: 0 auto;
+  width: 100%;
+  background-color: #e2e0f6;
   
     
 }
@@ -90,4 +92,81 @@ nav {
     justify-content: left;
     gap: 15px;
     padding: 0.5rem 1rem;
+}
+/* user styles */
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 200px 50px 200px;
+  padding-bottom: 50px;
+}
+.user-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  padding-top: 40px;
+}
+.user-amount{
+    font-size: 2.5em;
+    color: #3213e2;
+    font-weight: bold;
+}
+.user-note {
+  color: #9c99c8;
+  font-size: small;
+}
+.user{
+    background-color: #cac6f4;
+    margin: 50px 250px ;
+    border-radius: 15px;
+    height: 250px;
+    
+}
+/* touch Styles */
+.touch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 150px 250px 50px 250px;
+}
+form{
+    justify-items: left;
+    text-align: left;
+    margin: 0 auto;
+
+}
+.touch-btn{
+    color: #ffffff;
+  background-color: #3213e2;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.touch-title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #000000;
+    text-align: center;
+    margin: 20px 0;
+
+}
+label{
+    font-size: 8px;
+    font-weight: bold;
+    
+}
+input{
+    border: 1px solid blue;
+    border-radius: 4px;
+    size: 70px;
+}
+textarea{
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+.touch-container{
+   padding-right: 25px;
 }
