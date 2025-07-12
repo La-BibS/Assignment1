@@ -4,10 +4,10 @@
   font-optical-sizing: auto;
   font-style: normal;
   margin: 0 auto;
-  width: 100%;
+  width: 100%;    
+}
+main{
   background-color: #e2e0f6;
-  
-    
 }
 
 /* Nav styles */
@@ -61,13 +61,15 @@ nav {
     width: auto;
     height: 698px;
     gap: 20px;
+    background-color: #e2e0f6;
 }
 /* action styles */
 .action{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 150px 200px 155px 200px;
+    margin: 0 200px 155px 200px;
+    padding-top: 100px;
 }
 .action-button{
   color: #ffffff;
@@ -119,7 +121,7 @@ nav {
 }
 .user{
     background-color: #cac6f4;
-    margin: 50px 250px ;
+    margin: 50px 250px 0 250px;
     border-radius: 15px;
     height: 250px;
     
@@ -130,7 +132,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin: 150px 250px 50px 250px;
+  margin: 150px 300px 100px 300px;
+  padding-bottom: 60px;
 }
 form{
     justify-items: left;
@@ -143,7 +146,8 @@ form{
   background-color: #3213e2;
   font-weight: normal;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 1px;
+  margin: 0 auto;
 }
 .touch-title {
   font-size: 3em;
@@ -153,20 +157,64 @@ form{
     margin: 20px 0;
 
 }
+.span-touch{
+  color: #3213e2;
+  font-size: 1.5em;
+}
 label{
-    font-size: 8px;
+    font-size: 10px;
     font-weight: bold;
+    margin: 10px 0 5px;
     
 }
 input{
-    border: 1px solid blue;
+    border: 1px solid rgb(168, 168, 251);
     border-radius: 4px;
-    size: 70px;
+    padding: 10px;
+    
+    
 }
 textarea{
-    border: 1px solid blue;
+    border: 1px solid rgb(168, 168, 248);
     border-radius: 4px;
+    padding: 10px;
 }
 .touch-container{
    padding-right: 25px;
+   
+}
+.touch input:focus, .touch textarea:focus {
+    outline: none;
+    border-color: #3213e2;
+}
+/* footer styles */
+footer {
+  padding: 10px 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer-container ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 200px 50px 200px;
+  color: #9c99c8;
+}
+.footer-container ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  
+}
+.footer-container ul li a {
+  text-decoration: none;
+  color: #9c99c8;;
+}
+.footer-title{
+  font-size: 4em;
+  color: #3213e2;
+}
+.footer-stitle{
+  font-size: small;
+  color: #9c99c8;
+  margin: 20px 0;
 }
